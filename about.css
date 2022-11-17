@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+
+body, html{
+  padding: 0;
+  margin: 0;
+  background-color: #f1b83d;
+}
+  
+header{
+  height: 70px;
+  width:100%;
+  background-color: #282828;
+}  
+  
+h1{
+  position: absolute;
+  padding: 3px;
+  float: left; 
+  margin-left: 2%;
+  margin-top: 10px;   
+  font-family: 'Josefin Sans', sans-serif;
+  color: #f1b83d;
+}
+  
+li{
+  display: inline-block;
+  padding: 10px 30px;
+}
+  
+ul{
+  width: auto;
+  float: right;
+  margin-top: 8px;
+}
+  
+a{
+  text-align: center;
+  color: #f1b83d;
+  text-decoration: none;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2vw;
+}
+  
+a:hover{
+  color: #d7614d;
+  transition: 0.5s;
+}
+  
+h2{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+ 
+.first {
+  width: 500px; 
+  float:left; 
+  height:100px;  
+  margin:50px;
+  font-family: 'EB Garamond', serif;
+}
+
+.second {
+  width: 500px; 
+  float:right; 
+  height:100px; 
+  margin:50px;
+  font-family: 'EB Garamond', serif;
+}
+ 
+@media screen and (max-width: 500px) {
+  .first,
+  .second{
+    width: auto;
+    height: fit-content;
+    text-align: center;
+}
+}
