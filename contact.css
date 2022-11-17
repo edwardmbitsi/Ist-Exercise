@@ -1,1 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+body, html{
+  padding: 0;
+  margin: 0;
+  background-color: #f1b83d;
+}
+  
+header{
+  height: 70px;
+  width:100%;
+  background-color: #282828;
+}  
+  
+h1{
+  position: absolute;
+  padding: 3px;
+  float: left; 
+  margin-left: 2%;
+  margin-top: 10px;   
+  font-family: 'Josefin Sans', sans-serif;
+  color: #f1b83d;
+}
+  
+li{
+  display: inline-block;
+  padding: 10px 30px;
+}
+  
+ul{
+  width: auto;
+  float: right;
+  margin-top: 4px;
+}
+  
+a{
+  text-align: center;
+  color: #f1b83d;
+  text-decoration: none;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2vw;
+}
+  
+a:hover{
+  color: #d7614d;
+  transition: 0.5s;
+}
+  
+h2{
+  text-align: center;
+}
+
+.first {
+  width: 500px; 
+  float:left; 
+  height:100px; 
+  margin: 50px;   
+}
+
+.second {
+  width: 500px; 
+  float:right; 
+  height:100px; 
+  margin: 50px;  
+}
+ 
+@media screen and (max-width: 500px) {
+  .first{
+    width: fit-content;
+    height: fit-content;
+}
+  .second{
+    width: 70%;
+    text-align: center;
+    padding: 30px;
+}
+
+  button{
+   margin-bottom: 10px;
+}
+}
+
+.star{
+  width: 300px;
+  height: 20px;
+  border-radius: 10px;
+  padding: 2px;
+  margin: 5px;
+  border: 2px;
+}
+
+.stars{
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+  padding: 2px;
+  margin: 5px; 
+  border: 2px;
+}
+
+h3{
+  font-size: 40px;
+  text-align: left;
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+}
+
+hr{
+  margin: 0;
+}
+
+form{
+  padding-top: 30px;
+}
+
+button{
+  background-color: #386274;
+  border-radius: 25px;
+  height: 40px;
+  width: 80px;
+  float: 40%;
+}
+
+button:hover{
+  background-color: #D7614D;
+  transition: 0.5s;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}  
